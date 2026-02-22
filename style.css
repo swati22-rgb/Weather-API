@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  font-family: Arial;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background: rgb(252, 249, 249);
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 10px gray;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 15px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkgreen;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+}
