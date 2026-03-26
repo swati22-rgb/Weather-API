@@ -10,7 +10,7 @@ function getWeather() {
   }
 
   const url =
-    `https://api.weatherapi.com/v1/current.json?key=1229ac6060bd4ff59ec80930262202&q=Delhi`;
+    `https://api.weatherapi.com/v1/current.json?key=1229ac6060bd4ff59ec80930262202&q=${city}`;
 
   fetch(url)
 
